@@ -5,8 +5,10 @@ import './../../stylesheets/main.css';
 
 const Main = () => {
   return (
-    <App/>
+    <div>
+      <App />
+    </div>
   );
 };
 
-render(<Main/>, document.getElementById('app'));
+render(<Main />, document.getElementById('app'));
